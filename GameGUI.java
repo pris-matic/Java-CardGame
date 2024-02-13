@@ -250,6 +250,7 @@ public class GameGUI {
         gameFrame.setSize(800,600);
         gameFrame.setResizable(false);
         gameFrame.setTitle("Card Game");
+        gameFrame.setLocationRelativeTo(null);
 
         // components that are related to the inactive cards of both players
 
@@ -419,6 +420,9 @@ public class GameGUI {
                     if (p){
                         powerButton.setEnabled(true);
                         powerupsList.setEnabled(true);
+                    } else {
+                        powerButton.setEnabled(false);
+                        powerupsList.setEnabled(false);
                     }
                     
                     player1ActiveLabel.setText(player1Name.getText()+ "'s Active Card");
