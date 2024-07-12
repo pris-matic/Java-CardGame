@@ -39,12 +39,12 @@ These Card types are resistant or weak against certain types:
 - Dragon cards are weak to Fairy cards.
 - Fairy cards are weak to Ghost cards.
 - Ghost cards are weak to Dragon cards.
-If the card is weak against another, they take double damage.
+<br></br>If the card is weak against another, they take double damage.<br></br>
 
 - Dragon cards are resistant to Ghost cards.
 - Ghost cards are resistant to Fairy cards.
 - Fairy cards are resistant to Dragon cards.
-If the card is resistant against another, they take half the damage.
+<br></br>If the card is resistant against another, they take half the damage.<br></br>
 
 ## Additional notes
 - Trying to make a bot to play instead of another player. Time until completion: Indefinite
