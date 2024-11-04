@@ -24,11 +24,14 @@ Currently, there are 3 power-ups:
 - instaHeal - heals the current active card by 200 health
 
 Random: randomizes the initial card draw.
+
 Win Condition: Specify the number of tokens needed by one of the players in order to win. 3 tokens will the default requirement if it is left blank.
 
 ### Controls
 Attack - Attacks the enemy's card
+
 Swap - Swap the current card to another card based on the player's highest non-active card value, calculated by the card's current health, and its attack.
+
 Activate - (When power-up modifier is activated) Activate the selected power-up, if there's no power-up selected, it will not forfeit the player's turn.
 
 ## Gameplay
